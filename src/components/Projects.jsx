@@ -52,7 +52,7 @@ export default function Projects({ lang }) {
           <div className="project-block" key={p.title}>
             <div className="proj-glow" />
             <div className="project-header-bar">
-              <span className="proj-id">{p.id[lang]}</span>
+              <span className="proj-id">{p.id}</span>
               <span className="proj-date">{p.date[lang]}</span>
               <a href = {p.link}
               target = "_blank"
